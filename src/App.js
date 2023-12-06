@@ -61,6 +61,3 @@ function App() {
 }
 
 export default App;
-
-
-//{`container_btn ${isOperator(props.children)?'operador':null}`.trimEnd()}

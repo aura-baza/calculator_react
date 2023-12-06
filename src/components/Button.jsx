@@ -21,8 +21,8 @@ function Button(props) {
      {props.children}
    </div>
    );
-
  }
+ //Nota: otra alternativa sería:{`container_btn ${isOperator(props.children)?'operador':null}`.trimEnd()} en remplazo para no reenderisar 2 veces casi el mismo codigo.
 }
 
 export default Button;
